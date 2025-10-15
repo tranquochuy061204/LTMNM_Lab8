@@ -14,7 +14,10 @@
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">Trang chủ</a>
             <a class="nav-link text-white" href="{{ route('products.index') }}">Sản phẩm</a>
+            <a class="nav-link text-white" href="{{ route('students.index') }}">Sinh viên</a>
+            <a class="nav-link text-white" href="{{ route('queries.index') }}">Truy vấn</a>
         </div>
+
     </nav>
 
     <main class="container">
